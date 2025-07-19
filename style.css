@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+}
+
+.counter_container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 250px auto;
+    width: 350px;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-shadow: 10px 10px 50px yellow;
+
+
+}
+
+.btn{
+    font-size: 100px;
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+.ctr_data{
+    font-size: 100px;
+    font-weight: bold;
+}
